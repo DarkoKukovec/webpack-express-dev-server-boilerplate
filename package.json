@@ -1,0 +1,22 @@
+{
+  "name": "webpack-express-dev-server-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack Express dev-middleware boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -i app -i node_modules -i public index.js"
+  },
+  "author": "Darko Kukovec",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "webpack": "^1.13.0",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-middleware-hmr": "^1.0.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  }
+}
